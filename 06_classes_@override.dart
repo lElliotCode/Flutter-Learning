@@ -12,7 +12,7 @@ void main(){
   ''');
   
   final pokemon = new Pokemon(name: 'Ditto',);
- 
+
   print('''
   
   $pokemon
@@ -47,7 +47,7 @@ class Pokemon {
     required this.name, 
     this.power = 'No Power'
   });
- 
+
   @override
   String toString(){
     return '$name, $power';
